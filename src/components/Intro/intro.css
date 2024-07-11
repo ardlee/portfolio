@@ -114,9 +114,9 @@
         left: 50%; /* Center it horizontally */
         transform: translateX(-50%); /* Adjust for centering */
         position: absolute;
-        height: 55vh; /* Adjust height if needed */
+        height: 50vh; /* Adjust height if needed */
         width: 35vw; /* Make it full width */
-        margin-top: 47rem;
+        margin-top: 50rem;
     }
 
     #intro {
