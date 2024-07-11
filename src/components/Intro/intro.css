@@ -139,13 +139,13 @@
         transform: translateX(-50%); /* Adjust for centering */
         position: absolute;
         height: 50vh; /* Adjust height if needed */
-        width: 35vw; /* Make it full width */
-        margin-top: 45rem;
+        width: 37vw; /* Make it full width */
+        margin-top: 39rem;
     }
 
     #intro {
         height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 70vh; /* Add padding to account for bg image height */
+        padding-bottom: 74vh; /* Add padding to account for bg image height */
     }
     .introContent {
         height: auto; /* Adjust height for smaller screens */
