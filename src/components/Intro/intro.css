@@ -163,12 +163,12 @@
         position: absolute;
         height: 50vh; /* Adjust height if needed */
         width: 37vw; /* Make it full width */
-        margin-top: 23rem;
+        margin-top: 24rem;
     }
 
     #intro {
         height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 42vh; /* Add padding to account for bg image height */
+        padding-bottom: 55vh; /* Add padding to account for bg image height */
     }
     .introContent {
         height: auto; /* Adjust height for smaller screens */
