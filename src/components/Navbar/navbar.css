@@ -1,7 +1,7 @@
 .navbar {
     background: rgb( 30, 30, 30);
     height: 5rem;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -63,5 +63,26 @@
 
     .desktopMenuBtn {
         font-size: 0.8rem; 
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        font-size: 1.2rem; 
+        padding: 0.5rem; 
+    }
+
+    .logo {
+        object-fit: cover;
+        height: 2rem;
+        width: 3rem;
+    }
+
+    .desktopMenuListItem {
+        margin: 0.7rem; 
+    }
+
+    .desktopMenuBtn {
+        font-size: 0.6rem; 
     }
 }
