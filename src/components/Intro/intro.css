@@ -108,7 +108,7 @@
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     .bg {
         bottom: 0; /* Position it at the bottom */
         left: 50%; /* Center it horizontally */
@@ -116,7 +116,7 @@
         position: absolute;
         height: 55vh; /* Adjust height if needed */
         width: 35vw; /* Make it full width */
-        margin-top: 39rem;
+        margin-top: 47rem;
     }
 
     #intro {
