@@ -108,25 +108,26 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
     .bg {
         bottom: 0; /* Position it at the bottom */
         left: 50%; /* Center it horizontally */
         transform: translateX(-50%); /* Adjust for centering */
         position: absolute;
-        height: 55vh; /* Adjust height if needed */
-        width: 35vw; /* Make it full width */
-        margin-top: 47rem;
+        height: 45vh; /* Adjust height if needed */
+        width: 85vw; /* Make it full width */
+        margin-top: 15rem;
     }
 
     #intro {
         height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 70vh; /* Add padding to account for bg image height */
+        padding-bottom: 65vh; /* Add padding to account for bg image height */
+        max-width: 100%;
     }
     .introContent {
         height: auto; /* Adjust height for smaller screens */
         width: 100%; /* Ensure it takes the full width */
         padding: 1rem; /* Reduce padding for smaller screens */
-        padding-top: 2rem; /* Ensure padding at the top */
+        padding-top: 4rem; /* Ensure padding at the top */
     }
 }
