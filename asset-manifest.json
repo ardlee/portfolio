@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/https/ardlee/github.io/portfolio/static/css/main.95575840.css",
+    "main.js": "/https/ardlee/github.io/portfolio/static/js/main.80d58126.js",
+    "static/media/self.png": "/https/ardlee/github.io/portfolio/static/media/self.742a565b1c74046dcd82.png",
+    "static/media/ogreSwap.png": "/https/ardlee/github.io/portfolio/static/media/ogreSwap.bb3888db68178dbc62a0.png",
+    "static/media/mythos_fighters.jpg": "/https/ardlee/github.io/portfolio/static/media/mythos_fighters.4b5efcb7799c73713eb5.jpg",
+    "static/media/gamepad.png": "/https/ardlee/github.io/portfolio/static/media/gamepad.ef88cc9b38d1e56557ff.png",
+    "static/media/hireme.png": "/https/ardlee/github.io/portfolio/static/media/hireme.38a822d9b4a9a51ded3b.png",
+    "static/media/diploma.png": "/https/ardlee/github.io/portfolio/static/media/diploma.ca7221aff2d1f7abd863.png",
+    "index.html": "/https/ardlee/github.io/portfolio/index.html",
+    "main.95575840.css.map": "/https/ardlee/github.io/portfolio/static/css/main.95575840.css.map",
+    "main.80d58126.js.map": "/https/ardlee/github.io/portfolio/static/js/main.80d58126.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95575840.css",
+    "static/js/main.80d58126.js"
+  ]
+}
