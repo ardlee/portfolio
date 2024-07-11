@@ -4,6 +4,7 @@ import diplomaIcon from '../../assets/diploma.png';
 import computerIcon from '../../assets/computer.png';
 import gamepadIcon from '../../assets/gamepad.png';
 import resumeIcon from '../../assets/resumeIcon.png';
+//import LinkedIn from '../../assets/linkedin (1).png';
 
 
 const Skills = () => {
@@ -52,7 +53,20 @@ const Skills = () => {
             <p>Click here to view my resume</p>
           </div>
         </a>
+
+        {/*
+        <a href="https://www.linkedin.com/in/arthur-lee-4773091a4/" 
+        className="skillBar resumeBar" target="_blank" rel="noopener noreferrer">
+          <img src={LinkedIn} alt="LinkedIn Icon" className="skillImg" />
+          <div className="skillText">
+            <h2>LinkedIn</h2>
+            <p>Click here to view my LinkedIn profile and connect with me! Feel free to message me on LinkedIn as well.</p>
+          </div>
+        </a>
+        */}
       </div>
+
+      
     </section>
   );
 };

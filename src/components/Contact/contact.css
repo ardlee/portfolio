@@ -1,0 +1,81 @@
+#contactpage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin:6rem auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactpagetitle{
+    font-size: 4rem;
+}
+
+.contactdescription{
+    font-weight: 500;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+.contactform{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.name, .email, .message{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color:  rgb(0, 0, 0);
+    border: none;
+    background: white;
+    border-radius: .5rem;
+}
+
+.submit{
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 12rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 20%;
+    margin: 2rem;
+}
+.submit:hover{
+    background-color: rgb(134, 127, 127);
+    color:white;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row; /* Arrange children in a row */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    margin-top: 1rem; /* Add some space above the social links */
+}
+
+.linkedin {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.5rem; /* Add space between the social icons */
+}
+
+@media screen and (max-width:840px){
+    .contactpagetitle{
+        font-size: 8.5vw;
+    }
+    .contactdescription{
+        font-size: 3vw;
+    }
+}
