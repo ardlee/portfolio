@@ -1,0 +1,142 @@
+#works {
+    overflow: hidden;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+.portfolioLink {
+    text-decoration: none;
+    color: inherit; 
+    display: block; 
+}
+
+.portfolioLink:hover .workspanel {
+    background-color: darkkhaki; 
+    color: black; 
+}
+
+.workstitle {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.worksdescription {
+    font-weight: 500;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+.workspanels {
+    margin: 1.5rem auto;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workspanel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    color: white;
+    width: 75rem;
+    text-align: left;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.workspanelheader {
+    margin-right: 0.5rem;
+}
+
+.worksimg {
+    object-fit: cover;
+    width: 2rem;
+    max-width: 4rem;
+    height: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+
+}
+
+.mythos { /*mythos fighter img */
+    object-fit: cover;
+    width: 10rem;
+    max-width: 10rem;
+    height: 7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+
+.ogre { /*ogre img */
+    object-fit: cover;
+    width: 4rem;
+    max-width: 4rem;
+    height: 6rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.workspaneldesc {
+    font-weight: 400;
+    margin-top: 1rem;
+    flex: 2;
+}
+
+@media screen and (max-width: 1185px) {
+    .workstitle {
+        font-size: 9vw;
+        margin: 1rem auto;
+        align-items: center;
+        display: cover;
+    }
+    .worksdescription {
+        font-size: 4vw;
+        margin: 0 auto;
+    }
+    .workspanelheader {
+        font-size: 2.5vw;
+        margin: 0 auto;
+        align-items: center;
+        display: center;
+    }
+    .workspaneldesc {
+        font-size: 0.7rem;
+    }
+    .workspanel {
+        align-items: center;
+        width: 100vw;
+        justify-content: left;
+    }
+    .workspanels {
+        align-items: center;
+        width: 70vw;
+    }
+    .portfolioLink {
+        align-items: center;
+    }
+
+    .worksimg {
+        width: 2rem;
+        max-width: 4rem;
+        height: 4rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
