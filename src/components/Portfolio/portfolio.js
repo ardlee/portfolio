@@ -6,6 +6,7 @@ import abrakajumpa from '../../assets/abraicon.png';
 import mythos_gif from '../../assets/mythos_fighters.gif';
 import abrakajumpa_gif from '../../assets/abrakajumpaEX.gif';
 import ogreSwap_gif from '../../assets/ogreSwapEX.gif';
+import gta6_gif from '../../assets/GTA6GIF.gif'
 
 const Portfolio = () => {
   return (
@@ -56,6 +57,21 @@ const Portfolio = () => {
               
             </p>
             <img src={ogreSwap_gif} alt="Gameplay GIF" className="ogre-gif" />
+          </div>
+          </div>
+        </a>
+
+        <a href="https://ardlee.itch.io/gta6" target="_blank" rel="noreferrer" className="portfolioLink">
+          <div className="workspanel">
+          {/*<img src={ogre} alt="Ogre Icon" className="ogre" />*/}
+            <div className="workspanelheader"><h2>GTA6</h2>
+            <p className="workspaneldesc">
+              "GTA6" is a prototype game I worked on making in Unity. It is a GTA like game, hence the name. In this game, drive to the safezone as you are guided by a GPS. Avoid the AI cops or else they will bust you and the game ends.<br/><br/>
+
+              This game was originally meant for download, but I created a webGL page for it on Itch.io to make it more accessible for showing off. This game has simple AI, driving and car physics, nav mesh, and many more game components that I programmed in.
+              
+            </p>
+            <img src={gta6_gif} alt="Gameplay GIF" className="mythos-gif" />
           </div>
           </div>
         </a>
