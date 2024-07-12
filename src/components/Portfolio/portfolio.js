@@ -1,8 +1,11 @@
 import React from "react";
 import './portfolio.css';
 import abrakajumpa from '../../assets/abraicon.png';
-import mythos_fighters from '../../assets/mythos_fighters.jpg';
-import ogre from '../../assets/ogreSwap.png'
+//import mythos_fighters from '../../assets/mythos_fighters.jpg';
+//import ogre from '../../assets/ogreSwap.png';
+import mythos_gif from '../../assets/mythos_fighters.gif';
+import abrakajumpa_gif from '../../assets/abrakajumpaEX.gif';
+import ogreSwap_gif from '../../assets/ogreSwapEX.gif';
 
 const Portfolio = () => {
   return (
@@ -13,7 +16,7 @@ const Portfolio = () => {
       <div className="workspanels">
         <a href="https://store.steampowered.com/app/2998050/Abrakajumpa/" target="_blank" rel="noreferrer" className="portfolioLink">
           <div className="workspanel">
-          <img src={abrakajumpa} alt="Abrakajumpa Icon" className="worksimg" />
+          {/*<img src={abrakajumpa} alt="Abrakajumpa Icon" className="worksimg" />*/}
             <div className="workspanelheader"><h2>Abrakajumpa</h2>
             <p className="workspaneldesc">
               A challenging 2D vertical platformer made in Unity, published on Steam. The twist to this game is that you
@@ -23,26 +26,28 @@ const Portfolio = () => {
               I also worked as the audio lead and did all of the audio in this game.
               I gained knowledge on how to make complete games and how to apply digital audio to games.
             </p>
+            <img src={abrakajumpa_gif} alt="Gameplay GIF" className="mythos-gif" />
           </div>
           </div>
         </a>
 
         <a href="https://wiwechen.itch.io/mythos-fighter" target="_blank" rel="noreferrer" className="portfolioLink">
           <div className="workspanel">
-          <img src={mythos_fighters} alt="Mythos Icon" className="mythos" />
+          {/*<img src={mythos_fighters} alt="Mythos Icon" className="mythos" />*/}
             <div className="workspanelheader"><h2>Mythos Fighters</h2>
             <p className="workspaneldesc">
               Mythos Fighters is a Mortal Combat like fighting game with an orthographic camera perspective that was made in Unity.<br/><br/> 
               I worked with a small group of 5 to make this quick project in less than a month. I was in charge of player controls and the physics as well as
               the vfx. I gained knowledge on how to work fast and quickly develop a project.
             </p>
+            <img src={mythos_gif} alt="Gameplay GIF" className="mythos-gif" />
           </div>
           </div>
         </a>
 
         <a href="https://ardlee.github.io/OgreSwap/" target="_blank" rel="noreferrer" className="portfolioLink">
           <div className="workspanel">
-          <img src={ogre} alt="Ogre Icon" className="ogre" />
+          {/*<img src={ogre} alt="Ogre Icon" className="ogre" />*/}
             <div className="workspanelheader"><h2>Ogre Swap</h2>
             <p className="workspaneldesc">
               Ogre Swap is a game I made by myself on JavaScript. Protect the ogre by clicking on objects to swap its position with the ogre.<br/><br/>
@@ -50,6 +55,7 @@ const Portfolio = () => {
               Programmed using "Crisp Game Lib", a framwork meant for one input games. I learned how to use it in a day in order to make this game.
               
             </p>
+            <img src={ogreSwap_gif} alt="Gameplay GIF" className="ogre-gif" />
           </div>
           </div>
         </a>

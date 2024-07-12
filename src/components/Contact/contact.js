@@ -27,7 +27,7 @@ const Contact = () => {
       <div className="contact">
         <h1 className="contactpagetitle">Contact Me</h1>
         <span className="contactdescription">
-          For any work related inquiries, please fill out the form below with your contact information and a message! My email is artlee353@gmail.com if you would like to manually each out.
+          For any work related inquiries, please fill out the form below with your contact information and a message! My email is artlee353@gmail.com, if you would like to manually reach out.
         </span>
         <form className="contactform" ref={form} onSubmit={sendEmail}>
           <input type="text" className="name" placeholder="Your Name" name="your_name" />

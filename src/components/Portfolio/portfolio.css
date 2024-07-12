@@ -83,6 +83,14 @@
     margin-bottom: 0.5rem;
     margin-right: 1rem;
 }
+.mythos-gif {
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .ogre { /*ogre img */
     object-fit: cover;
@@ -93,6 +101,14 @@
     margin-bottom: 0.5rem;
 }
 
+.ogre-gif{
+    width: 58%; /* Adjust the width as needed */
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    margin-left: 29%;
+    margin-right: 29%;
+}
 .workspaneldesc {
     font-weight: 400;
     margin-top: 1rem;
