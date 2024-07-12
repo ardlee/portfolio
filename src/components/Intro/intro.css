@@ -75,7 +75,7 @@
 
     #intro {
         height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 64vh; /* Add padding to account for bg image height */
+        padding-bottom: 70vh; /* Add padding to account for bg image height */
     }
     .introContent {
         height: auto; /* Adjust height for smaller screens */
@@ -94,12 +94,12 @@
         position: absolute;
         height: 60vh; /* Adjust height if needed */
         width: 35vw; /* Make it full width */
-        margin-top: 22rem;
+        margin-top: 27rem;
     }
 
     #intro {
         height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 61vh; /* Add padding to account for bg image height */
+        padding-bottom: 73vh; /* Add padding to account for bg image height */
     }
     .introContent {
         height: auto; /* Adjust height for smaller screens */
@@ -117,12 +117,12 @@
         position: absolute;
         height: 60vh; /* Adjust height if needed */
         width: 40vw; /* Make it full width */
-        margin-top: 23rem;
+        margin-top: 27rem;
     }
 
     #intro {
         height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 65vh; /* Add padding to account for bg image height */
+        padding-bottom: 75vh; /* Add padding to account for bg image height */
     }
     .introContent {
         height: auto; /* Adjust height for smaller screens */
