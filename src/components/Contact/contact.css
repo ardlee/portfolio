@@ -72,6 +72,9 @@
 }
 
 @media screen and (max-width:840px){
+    .name,.email,.message{
+        color:lightgrey;
+    }
     .contactpagetitle{
         font-size: 8.5vw;
     }
