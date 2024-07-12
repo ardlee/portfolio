@@ -53,7 +53,7 @@
     margin: 2rem;
 }
 .submit:hover{
-    background-color: rgb(134, 127, 127);
+    background-color: darkkhaki;
     color:white;
 }
 
@@ -77,5 +77,10 @@
     }
     .contactdescription{
         font-size: 3vw;
+    }
+    .submit{
+        font-size: 3vw;
+        padding: 0.5rem 1.5rem;
+        width: auto;
     }
 }

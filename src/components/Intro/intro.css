@@ -74,7 +74,7 @@
 
     #intro {
         height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 83vh; /* Add padding to account for bg image height */
+        padding-bottom: 65vh; /* Add padding to account for bg image height */
         flex-direction: column; /* Stack content vertically */
         justify-content: flex-start; /* Align content to the top */
     }
