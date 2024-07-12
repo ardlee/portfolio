@@ -38,12 +38,12 @@
     padding: 0.5rem 1rem;
     color:  rgb(0, 0, 0);
     border: none;
-    background: darkgrey;
+    background: white;
     border-radius: .5rem;
 }
 
 .submit{
-    background: darkgrey;
+    background: white;
     border: none;
     padding: 0.75rem 3.5rem;
     border-radius: 12rem;
@@ -73,7 +73,7 @@
 
 @media screen and (max-width:840px){
     .name,.email,.message{
-        color:lightgrey;
+        color:black;
     }
     .contactpagetitle{
         font-size: 8.5vw;
