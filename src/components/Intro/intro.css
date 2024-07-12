@@ -140,29 +140,6 @@
         position: absolute;
         height: 50vh; /* Adjust height if needed */
         width: 37vw; /* Make it full width */
-        margin-top: 25rem;
-    }
-
-    #intro {
-        height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 50vh; /* Add padding to account for bg image height */
-    }
-    .introContent {
-        height: auto; /* Adjust height for smaller screens */
-        width: 100%; /* Ensure it takes the full width */
-        padding: 1rem; /* Reduce padding for smaller screens */
-        padding-top: 2rem; /* Ensure padding at the top */
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .bg {
-        bottom: 0; /* Position it at the bottom */
-        left: 50%; /* Center it horizontally */
-        transform: translateX(-50%); /* Adjust for centering */
-        position: absolute;
-        height: 50vh; /* Adjust height if needed */
-        width: 37vw; /* Make it full width */
         margin-top: 28rem;
     }
 
@@ -177,3 +154,4 @@
         padding-top: 2rem; /* Ensure padding at the top */
     }
 }
+
