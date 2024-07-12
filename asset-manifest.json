@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f8eed690.css",
-    "main.js": "/portfolio/static/js/main.b84b3044.js",
+    "main.css": "/portfolio/static/css/main.ca0b5ce1.css",
+    "main.js": "/portfolio/static/js/main.2941b78c.js",
     "static/media/self.png": "/portfolio/static/media/self.742a565b1c74046dcd82.png",
     "static/media/GTA6GIF.gif": "/portfolio/static/media/GTA6GIF.90379d2d85fc83555cd5.gif",
     "static/media/mythos_fighters.gif": "/portfolio/static/media/mythos_fighters.5b7351f841854c80d36e.gif",
+    "static/media/meals-for-all-gif.gif": "/portfolio/static/media/meals-for-all-gif.2d98ecd3f3269ea1450f.gif",
     "static/media/abrakajumpaEX.gif": "/portfolio/static/media/abrakajumpaEX.340556188992236dcbda.gif",
     "static/media/ogreSwapEX.gif": "/portfolio/static/media/ogreSwapEX.cf51a278d706dc081e6f.gif",
+    "static/media/PureData.png": "/portfolio/static/media/PureData.f36ae06b3efb6152a29d.png",
     "static/media/gamepad.png": "/portfolio/static/media/gamepad.ef88cc9b38d1e56557ff.png",
     "static/media/diploma.png": "/portfolio/static/media/diploma.ca7221aff2d1f7abd863.png",
     "static/media/instagram.png": "/portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/portfolio/index.html",
-    "main.f8eed690.css.map": "/portfolio/static/css/main.f8eed690.css.map",
-    "main.b84b3044.js.map": "/portfolio/static/js/main.b84b3044.js.map"
+    "main.ca0b5ce1.css.map": "/portfolio/static/css/main.ca0b5ce1.css.map",
+    "main.2941b78c.js.map": "/portfolio/static/js/main.2941b78c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8eed690.css",
-    "static/js/main.b84b3044.js"
+    "static/css/main.ca0b5ce1.css",
+    "static/js/main.2941b78c.js"
   ]
 }
