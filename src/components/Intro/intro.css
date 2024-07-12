@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between; 
     align-items: center;
-  }
+}
 
 .bg {
     top: 9rem;
@@ -16,7 +16,7 @@
     z-index: -1;
     position: absolute;
     object-fit: cover;
-  }
+}
 
 .introContent {
     height: 100vh;
@@ -63,74 +63,40 @@
 
 @media screen and (max-width: 900px) {
     .bg {
-
         bottom: 0; /* Position it at the bottom */
         left: 50%; /* Center it horizontally */
         transform: translateX(-50%); /* Adjust for centering */
         position: absolute;
         height: 60vh; /* Adjust height if needed */
-        width: 35vw; /* Make it full width */
+        width: 35vw; /* Adjust width for smaller screens */
         margin-top: 20rem;
     }
 
     #intro {
         height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 70vh; /* Add padding to account for bg image height */
+        padding-bottom: 83vh; /* Add padding to account for bg image height */
+        flex-direction: column; /* Stack content vertically */
+        justify-content: flex-start; /* Align content to the top */
     }
+
     .introContent {
         height: auto; /* Adjust height for smaller screens */
         width: 100%; /* Ensure it takes the full width */
         padding: 1rem; /* Reduce padding for smaller screens */
         padding-top: 4rem; /* Ensure padding at the top */
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+
+    .hello {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .introPara {
+        font-size: medium; /* Adjust font size for smaller screens */
+    }
+
+    .btn {
+        margin: 0.5rem 0; /* Reduce margin for smaller screens */
+        padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
     }
 }
-
-@media screen and (max-width: 850px) {
-    .bg {
-
-        bottom: 0; /* Position it at the bottom */
-        left: 50%; /* Center it horizontally */
-        transform: translateX(-50%); /* Adjust for centering */
-        position: absolute;
-        height: 60vh; /* Adjust height if needed */
-        width: 35vw; /* Make it full width */
-        margin-top: 27rem;
-    }
-
-    #intro {
-        height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 73vh; /* Add padding to account for bg image height */
-    }
-    .introContent {
-        height: auto; /* Adjust height for smaller screens */
-        width: 100%; /* Ensure it takes the full width */
-        padding: 1rem; /* Reduce padding for smaller screens */
-        padding-top: 4rem; /* Ensure padding at the top */
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .bg {
-        bottom: 0; /* Position it at the bottom */
-        left: 50%; /* Center it horizontally */
-        transform: translateX(-50%); /* Adjust for centering */
-        position: absolute;
-        height: 60vh; /* Adjust height if needed */
-        width: 40vw; /* Make it full width */
-        margin-top: 27rem;
-    }
-
-    #intro {
-        height: auto; /* Adjust height for smaller screens */
-        padding-bottom: 75vh; /* Add padding to account for bg image height */
-    }
-    .introContent {
-        height: auto; /* Adjust height for smaller screens */
-        width: 100%; /* Ensure it takes the full width */
-        padding: 1rem; /* Reduce padding for smaller screens */
-        padding-top: 2rem; /* Ensure padding at the top */
-    }
-}
-
-
-
