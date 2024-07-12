@@ -38,12 +38,12 @@
     padding: 0.5rem 1rem;
     color:  rgb(0, 0, 0);
     border: none;
-    background: white;
+    background: darkgrey;
     border-radius: .5rem;
 }
 
 .submit{
-    background: white;
+    background: darkgrey;
     border: none;
     padding: 0.75rem 3.5rem;
     border-radius: 12rem;
@@ -82,5 +82,6 @@
         font-size: 3vw;
         padding: 0.5rem 1.5rem;
         width: auto;
+        color: black;
     }
 }
