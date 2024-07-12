@@ -35,6 +35,27 @@
     font-size: 1.3rem;
 }
 
+.button-group {
+    margin-top: 1rem;
+}
+
+.button-group button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: darkkhaki;
+}
+
 .workspanels {
     margin: 1.5rem auto;
     width: 100vw;
@@ -48,7 +69,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 1rem auto;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
@@ -71,7 +92,6 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     margin-right: 1rem;
-
 }
 
 .mythos { /*mythos fighter img */
@@ -83,6 +103,7 @@
     margin-bottom: 0.5rem;
     margin-right: 1rem;
 }
+
 .mythos-gif {
     width: 50%; /* Adjust the width as needed */
     height: auto;
@@ -90,25 +111,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-
-.ogre { /*ogre img */
-    object-fit: cover;
-    width: 4rem;
-    max-width: 4rem;
-    height: 6rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
-.ogre-gif{
-    width: 58%; /* Adjust the width as needed */
-    height: auto;
-    margin-top: 10px;
-    display: block;
-    margin-left: 29%;
-    margin-right: 29%;
-}
+
 .workspaneldesc {
     font-weight: 400;
     margin-top: 1rem;
@@ -147,12 +152,19 @@
     .portfolioLink {
         align-items: center;
     }
-
     .worksimg {
         width: 2rem;
         max-width: 4rem;
         height: 4rem;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
+    }
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-group button {
+        margin: 0.5rem 0;
+        width: 100%;
     }
 }

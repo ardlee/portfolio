@@ -19,6 +19,10 @@
     width: 4rem;
 }
 
+.logo:hover{
+    background-color: black;
+}
+
 .desktopMenuListItem {
     margin: 5rem;
     cursor: pointer;

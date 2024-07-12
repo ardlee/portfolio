@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.css'
-import logo from '../../assets/AL_stylized_logo.png'
+import logo from '../../assets/AL_stylized_logo_transparent.png'
 import { Link } from 'react-scroll';
 import contactImg from '../../assets/contactme.png'
 
