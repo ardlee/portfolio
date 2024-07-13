@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ca0b5ce1.css",
-    "main.js": "/portfolio/static/js/main.2941b78c.js",
+    "main.js": "/portfolio/static/js/main.828c7fc8.js",
     "static/media/self.png": "/portfolio/static/media/self.742a565b1c74046dcd82.png",
     "static/media/GTA6GIF.gif": "/portfolio/static/media/GTA6GIF.90379d2d85fc83555cd5.gif",
     "static/media/mythos_fighters.gif": "/portfolio/static/media/mythos_fighters.5b7351f841854c80d36e.gif",
@@ -9,15 +9,17 @@
     "static/media/abrakajumpaEX.gif": "/portfolio/static/media/abrakajumpaEX.340556188992236dcbda.gif",
     "static/media/ogreSwapEX.gif": "/portfolio/static/media/ogreSwapEX.cf51a278d706dc081e6f.gif",
     "static/media/PureData.png": "/portfolio/static/media/PureData.f36ae06b3efb6152a29d.png",
+    "static/media/pathfinding.png": "/portfolio/static/media/pathfinding.b2a3439d8e1efec4f7c8.png",
+    "static/media/facialTicTacToe.png": "/portfolio/static/media/facialTicTacToe.d55040d8bf94447236e4.png",
     "static/media/gamepad.png": "/portfolio/static/media/gamepad.ef88cc9b38d1e56557ff.png",
     "static/media/diploma.png": "/portfolio/static/media/diploma.ca7221aff2d1f7abd863.png",
     "static/media/instagram.png": "/portfolio/static/media/instagram.0bcd1dcb7d853c327af7.png",
     "index.html": "/portfolio/index.html",
     "main.ca0b5ce1.css.map": "/portfolio/static/css/main.ca0b5ce1.css.map",
-    "main.2941b78c.js.map": "/portfolio/static/js/main.2941b78c.js.map"
+    "main.828c7fc8.js.map": "/portfolio/static/js/main.828c7fc8.js.map"
   },
   "entrypoints": [
     "static/css/main.ca0b5ce1.css",
-    "static/js/main.2941b78c.js"
+    "static/js/main.828c7fc8.js"
   ]
 }
