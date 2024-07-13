@@ -8,8 +8,13 @@ import abrakajumpa_gif from '../../assets/abrakajumpaEX.gif';
 import ogreSwap_gif from '../../assets/ogreSwapEX.gif';
 import gta6_gif from '../../assets/GTA6GIF.gif';
 import PureData from '../../assets/PureData.png';
+import cookieShooter_gif from '../../assets/cookieShooterGIF.gif';
+import rhythm from '../../assets/rhythm.png';
+import itBop_gif from '../../assets/itBopGIF.gif';
 // other projects section
 import mealsForAll_gif from '../../assets/meals-for-all-gif.gif';
+import TTT from '../../assets/facialTicTacToe.png';
+import pathfinding from '../../assets/pathfinding.png'
 
 
 const Portfolio = () => {
@@ -24,7 +29,7 @@ const Portfolio = () => {
       </span>
       <div className="button-group">
         <button onClick={() => setActivePanel('games')}>Game Projects</button>
-        <button onClick={() => setActivePanel('websites')}>Other Projects</button>
+        <button onClick={() => setActivePanel('other')}>Other Projects</button>
       </div>
       <div className="workspanels">
         {activePanel === 'games' && (
@@ -106,9 +111,54 @@ const Portfolio = () => {
                 </div>
               </div>
             </a>
+
+            <a href="https://ardlee.github.io/Cookie-Shooter/" target="_blank" rel="noreferrer" className="portfolioLink">
+              <div className="workspanel">
+                <div className="workspanelheader">
+                  <h2>Cookie Shooter</h2>
+                  <p className="workspaneldesc">
+                    "Cookie Shooter" is a basic 2D game I made on my own on JS, HTML using the Phaser3 framework. This is a classic arcade styled endless game where you shoot the enemies and stay alive as long as possible to get a high score. <br/><br/>
+
+                    I am especially proud of the art here as I made it and even made the animations for the enemies, as well as the cursor that changes to a crosshair and shoots wherever your mouse is.
+                  </p>
+                  <img src={cookieShooter_gif} alt="Gameplay GIF" className="mythos-gif" />
+                </div>
+              </div>
+            </a>
+
+            <a href="https://ardlee.github.io/wizard-of-oz-game/" target="_blank" rel="noreferrer" className="portfolioLink">
+              <div className="workspanel">
+                <div className="workspanelheader">
+                  <h2>Rhythm Game</h2>
+                  <p className="workspaneldesc">
+                    This is a rhythm game I made for a class project, that was Wizard of Oz themed. Select a song and press the space bar when the note is on the line. <br/><br/>
+
+                    The notes were made to fall, a time stamp was made for each note to touch the line at the given timestamp. This project was difficult to get exact timestamps as I had to listen to the songs and get timestamps for when I would want a note. Checkout my repository to see my code on it for more info.
+                  </p>
+                  <img src={rhythm} alt="Gameplay GIF" className="mythos-gif" />
+                </div>
+              </div>
+            </a>
+
+            <a href="https://ardlee.github.io/It-Bop/" target="_blank" rel="noreferrer" className="portfolioLink">
+              <div className="workspanel">
+                <div className="workspanelheader">
+                  <h2>Rhythm Game</h2>
+                  <p className="workspaneldesc">
+                    This is a simple web game made on JS/HTML using the Crisp Game Lib framework. In this game you simply click on the green square before 1.5 second passes. I would recomend using a mouse for this game, it is diffcult to play with trackpad. You can see I tried to play with a trackpad in the example GIF.<br/><br/>
+                  </p>
+                  <img src={itBop_gif} alt="Gameplay GIF" className="mythos-gif" />
+                </div>
+              </div>
+            </a>
+
           </>
         )}
-        {activePanel === 'websites' && (
+
+
+
+        {/*****************************************OTHER PROJECTS ************************/}
+        {activePanel === 'other' && (
           <>
             <a href="https://www.figma.com/design/bF801aLi8q3oSheHyfYrxj/W9-Updated-Figma-Prototype?node-id=0-1" target="_blank" rel="noreferrer" className="portfolioLink">
               <div className="workspanel">
@@ -118,6 +168,36 @@ const Portfolio = () => {
                     "Meals For All" is a Figma prototype I worked on that showcases UI/UX skills and programming. This is a prototype meant for a suspended meals app that would help users reserve and order food.
                   </p>
                   <img src={mealsForAll_gif} alt="Gameplay GIF" className="mythos-gif" />
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/ardlee/p6" target="_blank" rel="noreferrer" className="portfolioLink">
+              <div className="workspanel">
+                <div className="workspanelheader">
+                  <h2>Facial Recognition AI</h2>
+                  <p className="workspaneldesc">
+                    An assignment project I worked on in Python that uses Kaggle and Keras to train an AI by giving it many pictures of faces in folders labled the emotion. Once the AI was trained the 
+                    project uses your camera and reads your facial emotion. After I then implemented it to use your facial emotion to play Tic Tac Toe, 
+                    the program asks you which column and row you want with corresponding emotions for you to make to place where you want your tic.<br/><br/>
+                    Click to download and run it in your terminal to try it out. In your ternminal once you cd to the directory of the downloaded folder, type in "run player.py" then press enter and your webcam will be enabled and you can play.
+
+                  </p>
+                  <img src={TTT} alt="Gameplay GIF" className="mythos-gif" />
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/ardlee/NavMeshPathFinding" target="_blank" rel="noreferrer" className="portfolioLink">
+              <div className="workspanel">
+                <div className="workspanelheader">
+                  <h2>Pathfinding AI</h2>
+                  <p className="workspaneldesc">
+                    An assignment project I worked on in Python that uses AI and navmesh to find the shortest route from point a to point b. Programmed using A* technique.<br/><br/>
+                    Click to download and run it in your terminal to try it out. In your ternminal once you cd to the directory of the downloaded folder, type in "python nm_interactive.py githubLogo.py githubLogo.png.mesh.pickle" to run.                    .
+
+                  </p>
+                  <img src={pathfinding} alt="Gameplay GIF" className="mythos-gif" />
                 </div>
               </div>
             </a>

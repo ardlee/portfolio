@@ -45,7 +45,11 @@
     padding: 0 0.5rem;
     border-radius: 2rem;
 }
-
+.desktopMenuBtn:hover{
+    background: darkkhaki;
+    color: white;
+   
+}
 .desktopMenuImg {
     object-fit: cover;
     height: 1rem;

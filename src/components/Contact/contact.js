@@ -1,7 +1,8 @@
 import './contact.css';
 import React, { useRef } from 'react'
 import linkedinLogo from '../../assets/linkedin.png';
-import igLogo from '../../assets/instagram.png'
+import igLogo from '../../assets/instagram.png';
+import github from '../../assets/githubLogo.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -40,6 +41,9 @@ const Contact = () => {
             </a>
             <a href="https://www.instagram.com/arthurdlee?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
               <img src={igLogo} alt="Instagram Logo" className="linkedin" />
+            </a>
+            <a href="https://github.com/ardlee" target="_blank" rel="noopener noreferrer">
+              <img src={github} alt="GitHub Logo" className="linkedin" />
             </a>
           </div>
         </form>
