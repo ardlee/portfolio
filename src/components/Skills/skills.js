@@ -4,6 +4,9 @@ import diplomaIcon from '../../assets/diploma.png';
 import computerIcon from '../../assets/computer.png';
 import gamepadIcon from '../../assets/gamepad.png';
 import resumeIcon from '../../assets/resumeIcon.png';
+import resume from '../../assets/resume.pdf'
+
+
 //import LinkedIn from '../../assets/linkedin (1).png';
 
 
@@ -45,7 +48,7 @@ const Skills = () => {
             </div>
         </div>
 
-        <a href="https://docs.google.com/document/d/1Fnk3Rbq7oYjzLEuA7q3Osso8ZYDtcc3Dmd1mANxek28/edit?usp=sharing" 
+        <a href={resume}
         className="skillBar resumeBar" target="_blank" rel="noopener noreferrer">
           <img src={resumeIcon} alt="Resume Icon" className="skillImg" />
           <div className="skillText">
