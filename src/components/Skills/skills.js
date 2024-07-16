@@ -44,7 +44,7 @@ const Skills = () => {
             <div className="skillText">
                 <h2>Web Development</h2>
                 <p>I am eager to deepen my knowledge and gain further experience in web development. 
-                My focus is in front end development using HTML, CSS, JS and TS, and back-end frameworks such as React.</p>
+                My focus is in front end development using HTML, CSS, JS and TS, and experienced with React.</p>
             </div>
         </div>
 

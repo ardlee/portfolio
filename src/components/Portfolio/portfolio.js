@@ -44,8 +44,9 @@ const Portfolio = () => {
                     cannot move in the air so you must think before jumping as there are high consquences for a bad jump.<br/><br/> 
                     This game was made in a group of 6 colleagues, which taught me how to work with others for a long period of time.
                     I worked as the lead game designer, responsible for programming 80% of the game.
-                    I also worked as the audio lead and did all of the audio in this game.
-                    I gained knowledge on how to make complete games and how to apply digital audio to games.
+                    I also worked as the audio lead and did all of the audio in this game using FMOD to program and apply the digital audio
+                    to the game, used Reaper to better edit and adjust the audio.
+                    Overall, I gained knowledge on how to make complete games and how to apply digital audio to games.
                   </p>
                   <img src={abrakajumpa_gif} alt="Gameplay GIF" className="mythos-gif" />
                 </div>
