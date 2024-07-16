@@ -25,7 +25,7 @@ const Portfolio = () => {
       <h2 className="workstitle">My Portfolio</h2>
       <span className="worksdescription">
         Here is my portfolio of projects I have made or been a part of!<br/>
-        Click on any panel to view available demos
+        Click on any panel to view available demos and click the buttons below to switch the project types.
       </span>
       <div className="button-group">
         <button onClick={() => setActivePanel('games')}>Game Projects</button>
@@ -74,7 +74,7 @@ const Portfolio = () => {
                 <div className="workspanelheader">
                   <h2>Ogre Swap</h2>
                   <p className="workspaneldesc">
-                    Ogre Swap is a game I made by myself on JavaScript. Protect the ogre by clicking on objects to swap its position with the ogre.<br/><br/>
+                    Ogre Swap is a game I made individually on JavaScript that is available on both mobile and desktop. Protect the ogre by clicking on objects to swap its position with the ogre.<br/><br/>
 
                     Programmed using "Crisp Game Lib", a framwork meant for one input games. I learned how to use it in a day in order to make this game.
                     
@@ -118,9 +118,9 @@ const Portfolio = () => {
                 <div className="workspanelheader">
                   <h2>Cookie Shooter</h2>
                   <p className="workspaneldesc">
-                    "Cookie Shooter" is a basic 2D game I made on my own on JS, HTML using the Phaser3 framework. This is a classic arcade styled endless game where you shoot the enemies and stay alive as long as possible to get a high score. <br/><br/>
+                    "Cookie Shooter" is a basic 2D game I made individually. Programmed on JS and HTML using the Phaser3 framework. This is a classic arcade styled endless game where you shoot the enemies and stay alive as long as possible to get a high score. <br/><br/>
 
-                    I am especially proud of the art here as I made it and even made the animations for the enemies, as well as the cursor that changes to a crosshair and shoots wherever your mouse is.
+                    A few aspects of the game I am particularly proud of include the art, animations for the enemies, and the cursor's adaptivity.
                   </p>
                   <img src={cookieShooter_gif} alt="Gameplay GIF" className="mythos-gif" />
                 </div>
@@ -144,9 +144,9 @@ const Portfolio = () => {
             <a href="https://ardlee.github.io/It-Bop/" target="_blank" rel="noreferrer" className="portfolioLink">
               <div className="workspanel">
                 <div className="workspanelheader">
-                  <h2>Rhythm Game</h2>
+                  <h2>It-Bop</h2>
                   <p className="workspaneldesc">
-                    This is a simple web game made on JS/HTML using the Crisp Game Lib framework. In this game you simply click on the green square before 1.5 second passes. I would recomend using a mouse for this game, it is diffcult to play with trackpad. You can see I tried to play with a trackpad in the example GIF.<br/><br/>
+                    It-bop is a simple web game that is also available on mobile, it was made on JS/HTML using the Crisp Game Lib framework. In this game you simply click on the green square before 1.5 second passes. I would recomend using a mouse for this game, it is diffcult to play with trackpad. You can see I tried to play with a trackpad in the example GIF.<br/><br/>
                   </p>
                   <img src={itBop_gif} alt="Gameplay GIF" className="mythos-gif" />
                 </div>
@@ -194,8 +194,8 @@ const Portfolio = () => {
                 <div className="workspanelheader">
                   <h2>Pathfinding AI</h2>
                   <p className="workspaneldesc">
-                    An assignment project I worked on in Python that uses AI and navmesh to find the shortest route from point a to point b. Programmed using A* technique.<br/><br/>
-                    Click to download and run it in your terminal to try it out. In your ternminal once you cd to the directory of the downloaded folder, type in "python nm_interactive.py githubLogo.py githubLogo.png.mesh.pickle" to run.                    .
+                    An assignment project I worked on in Python that uses AI and navmesh to find an efficient route from point a to point b. Programmed using A* technique.<br/><br/>
+                    Click to download and run it in your terminal to try it out. In your ternminal once you cd to the directory of the downloaded folder, type in "python nm_interactive.py githubLogo.py githubLogo.png.mesh.pickle" to run. This program can use any picture but it needs a mesh, which makes the red boxes you see.
 
                   </p>
                   <img src={pathfinding} alt="Gameplay GIF" className="mythos-gif" />
