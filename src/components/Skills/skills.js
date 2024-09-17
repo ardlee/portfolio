@@ -4,7 +4,7 @@ import diplomaIcon from '../../assets/diploma.png';
 import computerIcon from '../../assets/computer.png';
 import gamepadIcon from '../../assets/gamepad.png';
 import resumeIcon from '../../assets/resumeIcon.png';
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/ArthurDLeeResume.pdf'
 
 
 //import LinkedIn from '../../assets/linkedin (1).png';
