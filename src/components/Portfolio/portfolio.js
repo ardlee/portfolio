@@ -3,6 +3,7 @@ import './portfolio.css';
 //import abrakajumpa from '../../assets/abraicon.png';
 //import mythos_fighters from '../../assets/mythos_fighters.jpg';
 //import ogre from '../../assets/ogreSwap.png';
+import memorymelon_jpeg from '../../assets/memorymelon.jpg'
 import mythos_gif from '../../assets/mythos_fighters.gif';
 import abrakajumpa_gif from '../../assets/abrakajumpaEX.gif';
 import ogreSwap_gif from '../../assets/ogreSwapEX.gif';
@@ -34,6 +35,22 @@ const Portfolio = () => {
       <div className="workspanels">
         {activePanel === 'games' && (
           <>
+          <a href="https://apps.apple.com/us/app/memory-melon/id6474344601" target="_blank" rel="noreferrer" className="portfolioLink">
+              <div className="workspanel">
+                {/*<img src={abrakajumpa} alt="Abrakajumpa Icon" className="worksimg" />*/}
+                <div className="workspanelheader">
+                  <h2>Memory Melon</h2>
+                  <p className="workspaneldesc">
+                  Dive into the sweet world of Memory Melon, where fruits burst and your memory leads to fun and adventure! It's all about speed, memory, and a splash of sweetness as you match fruits and collect as many seeds as quickly as possible.<br/><br/> 
+                    Memory Melon is a mobile game that I had the role of being a mobile developer intern for. My responosibilites were to implement
+                    new features such as integrating an anlaytics system using Firebase, creating a push notification system, and implementing
+                    a cross platform leaderboard system.
+                  </p>
+                  <img src={memorymelon_jpeg} alt="Gameplay GIF" className="mythos-gif" />
+                </div>
+              </div>
+            </a>
+
             <a href="https://store.steampowered.com/app/2998050/Abrakajumpa/" target="_blank" rel="noreferrer" className="portfolioLink">
               <div className="workspanel">
                 {/*<img src={abrakajumpa} alt="Abrakajumpa Icon" className="worksimg" />*/}
